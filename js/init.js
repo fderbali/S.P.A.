@@ -57,7 +57,7 @@ let listeFilms;
 		// Chargement du fichier JSON
 		$.ajax({
 			"type": "GET",
-			"url": "http://spa.test/serveur/dbfilms.json",
+			"url": "https://singlepageapp.fahmiderbali.com/serveur/dbfilms.json",
 			"async": true,
 			"dataType": "json",
 			"success": (reponse) => {
